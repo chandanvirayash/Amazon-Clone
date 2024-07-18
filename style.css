@@ -1,0 +1,537 @@
+body{
+
+    background-color: rgba(128, 128, 128, 0.152);
+ margin-top: 0px;
+}
+
+#navbar{
+
+height: 60px;
+width: 100%;
+background-color: rgb(35,47,62) ;
+color: white;
+display: flex;
+align-items: center;
+padding: 10px;
+
+
+
+}
+
+#amazonlogo{
+
+height: 60px;
+width: 140px;
+}
+
+input{
+
+    height: 40px;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 50px;
+}
+
+.fa-magnifying-glass {
+
+
+background-color: yellow;
+font-size: 41px;
+margin-top: 2px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#flag{
+    height: 30px;
+    margin-left: 20px;
+}
+
+.fa-cart-shopping{
+
+font-size: 30px;
+
+}
+
+.fa-location-dot{
+
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.navdisc{
+
+    margin: 50px;
+}
+
+#belownav{
+padding: 10px;
+height: 30px;
+
+width: 100%;
+background-color: rgba(35, 47, 62, 0.868) ; ;
+color: white;
+display: flex;
+align-items: center;
+}
+
+#belownav span{
+    margin: 30px;
+}
+
+#primeday{
+
+    height: 50px;
+}
+
+#banner{
+    padding: 10px;
+height: 400px;
+width: 100%;
+background-image: url(PC-hero-new-kv_-3000x1200_2._CB570221731_.jpg);
+background-size: cover;
+
+}
+
+#contain1{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 250px;
+    background-color: rgb(255, 255, 255)
+
+}
+
+.contitem1{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+
+}
+
+.picture {
+
+    height: 50px;
+    width: 50px;
+}
+
+#maincontain{
+
+height: 500px;
+width: 30%;
+padding: 10px;
+position: relative;
+margin-top: 300px;
+display: inline-block;
+}
+
+#headphone{
+
+    height: 500px;
+    width:450px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px ;
+background-color: white;  
+border-radius: 15PX;  
+}
+
+#headphone img{
+
+height:100px ;
+width: 100px;
+
+}
+
+.boult{
+
+grid-row: 4/5;
+grid-column: 2/3;
+
+}
+
+.zeb{
+
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.noise{
+
+grid-column: 4/5;
+grid-row: 2/3;
+}
+
+.boat{
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#headphone h5{
+    margin-left: 10px;
+}
+
+#headphone h2{
+
+    grid-column: 2/5;
+}
+
+#maincontain2{
+
+
+    height: 500px;
+    width: 30%;
+    
+    padding: 10px;
+    position: relative;
+    margin-top: 300px;
+    display: inline-block;
+
+}
+
+#maincontain3{
+
+    
+    height: 500px;
+    width: 30%;
+    
+    padding: 10px;
+    position: relative;
+    margin-top: 300px;
+    display: inline-block;
+
+}
+
+#banner1{
+    
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+
+}
+ #art{
+
+
+height: 300px;
+width: 99%;
+background-color: white;
+display: flex;
+padding: 10px;
+border-top-right-radius: 10px;
+/* margin: 100px;/ */
+
+
+
+}
+
+.container {
+    margin-top: 410px;
+    background-color: white;
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header h2 {
+    margin: 0;
+    color: black;
+}
+.header a {
+    text-decoration: none;
+    color: #0056b3;
+}
+.slider {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+}
+.slider img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container2{
+    
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#banner2{
+
+    position: absolute;
+    margin-top: 0px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+    display: flex;
+    height: 227px;
+    margin-left: 50px;
+
+
+}
+
+#movieposter{
+
+
+    height: 250px;
+    width: 100%;
+
+    
+    margin-top: 530px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#poster{
+
+    height: 250px;
+    width: 920px;
+    background-image: url(bg\ movie.jpeg);
+    
+}
+
+
+#outerdiv{
+
+
+    height: 500px;
+    width: 100%;
+   
+    
+}
+
+.innerdiv{
+
+height: 450px;
+width: 68%;
+
+margin-top: 20px;
+display: grid;
+background-color: rgb(255, 255, 255);
+grid-template-rows: 140px 140px 140px;
+grid-template-columns: 130px 130px 130px;
+}
+
+.innerdiv div img {
+
+height: 140px;
+justify-content: center;
+margin-left: 20px;
+
+
+}
+.innerdiv h4{
+
+    font-size: x-large;
+}
+#l3{
+
+grid-row: 3/4;
+grid-column: 2/3;
+
+}
+
+#l1{
+
+    
+grid-row: 3/4;
+grid-column: 1/2;
+
+}
+
+#l2{
+
+    
+grid-row: 2/3;
+grid-column: 1/2;
+}
+
+#l4{
+
+    
+grid-row: 2/3;
+grid-column: 2/3;
+}
+
+#indisc{
+
+
+    grid-row: 1/2;
+    grid-column: 1/3;
+text-align: center;    
+    
+}
+
+#styleid{
+
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.fresh img{
+
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    
+    
+}
+ #bg{
+
+
+height: 150px;
+width: 200px;
+    
+    grid-column: 1/2;
+ }
+
+ #bg img{
+    height: 255px;
+    width: 297px;
+}
+
+ 
+ .innerdiv1{
+
+    height: 450px;
+    width: 98%;
+    
+    margin-top: 20px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 300px ;
+    /* grid-template-columns: 200px ; */
+    }
+    
+
+    .innerdiv1 h4{
+
+        font-size: x-large;
+
+    }
+
+
+    .container1{
+
+        margin-top: 24px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .slider1 img {
+
+        margin-left: 20px;
+
+    }
+
+    #eletronic{
+
+
+        height: 500px;
+        width: 100%;
+        
+      background-color: white;
+        
+        justify-content: space-evenly;
+        margin-top: 20px;
+       
+        border-radius: 10px;
+        align-items: center;
+        border-radius: 10px;
+
+        
+    }
+
+    #eledisc h4{
+
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    #eledisc {
+
+        border-radius: 10px;
+    }
+
+
+
+   #eletronic div{
+
+
+    
+    background-color: white;
+    margin-top: 36px;
+   }
+
+.newslider{
+
+    display: flex;
+    height: 165px;
+    width: 165px;
+    justify-content: space-evenly;
+
+
+}
+
+.newslider img{
+
+margin-left: 35px;
+
+}
+
+#eledisc{
+
+    display: flex;
+}
+
+
+
+#slideratt{
+
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+#endpart{
+
+height: 150px;
+width: 100%;
+
+margin-top: 70px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+
+}
+
+#btn button{
+font-weight: bolder;
+ background-color: yellow;
+    margin-left: 10px;
+    width: 150px;
+}
+
+#lastbg{
+background-image: url(lbg.png);
+background-size: cover;
+
+    height: 360px;
+    width: 100%;
+    
+}
